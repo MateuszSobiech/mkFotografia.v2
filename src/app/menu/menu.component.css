@@ -1,0 +1,29 @@
+.example-sidenav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.example-sidenav {
+  padding: 20px;
+  width: 100%;
+}
+
+.example-sidenav button {
+  top: 41.44px;
+  right: 20px;
+  position: absolute;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.menu p {
+  margin: 25px 0;
+}
