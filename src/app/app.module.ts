@@ -16,6 +16,7 @@ import { GaleriaSesjaComponent } from './galeria/galeria-sesja.component';
 import { OMnieComponent } from './o-mnie/o-mnie.component';
 import { StartComponent } from './start/start.component';
 import { PhotoComponent } from './photo/photo.component';
+import { KontaktComponent } from './kontakt/kontakt.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PhotoComponent } from './photo/photo.component';
     GaleriaSesjaComponent,
     OMnieComponent,
     StartComponent,
-    PhotoComponent
+    PhotoComponent,
+    KontaktComponent
   ],
   imports: [
     BrowserModule,
