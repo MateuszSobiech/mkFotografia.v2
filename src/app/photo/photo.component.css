@@ -1,0 +1,16 @@
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.photo a {
+  color: black;
+}
+
+.photo a:visited {
+  color: black;
+}
+
+.photo a:hover {
+  color: grey;
+}

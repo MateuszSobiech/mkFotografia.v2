@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mk2';
+  onActive() {
+    window.scrollTo(0, 0);
+  }
 }

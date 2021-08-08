@@ -14,6 +14,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { GaleriaMakroComponent } from './galeria/galeria-makro.component';
 import { GaleriaSesjaComponent } from './galeria/galeria-sesja.component';
 import { OMnieComponent } from './o-mnie/o-mnie.component';
+import { StartComponent } from './start/start.component';
+import { PhotoComponent } from './photo/photo.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { OMnieComponent } from './o-mnie/o-mnie.component';
     GaleriaMakroComponent,
     GaleriaProduktowaComponent,
     GaleriaSesjaComponent,
-    OMnieComponent
+    OMnieComponent,
+    StartComponent,
+    PhotoComponent
   ],
   imports: [
     BrowserModule,
