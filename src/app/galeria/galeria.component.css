@@ -1,0 +1,11 @@
+.galeria {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.zdjecie {
+  margin-top: 50px;
+  /* width: 1000px; */
+  width: 350px;
+  height: auto;
+}

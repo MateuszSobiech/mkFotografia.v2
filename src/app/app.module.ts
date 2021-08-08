@@ -1,3 +1,4 @@
+import { GaleriaProduktowaComponent } from './galeria/galeria-produktowa.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -10,9 +11,18 @@ import { MatButtonModule } from '@angular/material/button';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
+import { GaleriaMakroComponent } from './galeria/galeria-makro.component';
+import { GaleriaSesjaComponent } from './galeria/galeria-sesja.component';
 
 @NgModule({
-  declarations: [AppComponent, MenuComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    MenuComponent,
+    FooterComponent,
+    GaleriaMakroComponent,
+    GaleriaProduktowaComponent,
+    GaleriaSesjaComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

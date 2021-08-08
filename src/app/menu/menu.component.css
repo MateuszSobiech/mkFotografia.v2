@@ -10,18 +10,36 @@
 }
 
 .example-sidenav button {
+  z-index: 2;
   top: 37.5px;
   right: 20px;
   position: absolute;
 }
 
 .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
+
+.menu a {
+  color: black;
+}
+
+.menu a:visited {
+  color: black;
+}
+
+.menu a:hover {
+  color: grey;
+}
+
 .mat-button {
   padding: 8px 16px;
   line-height: 0;

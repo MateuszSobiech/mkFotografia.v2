@@ -6,9 +6,11 @@
     <h2><a routerLink="/main">O mnie</a></h2>
     <h2><a routerLink="/main">Kontakt</a></h2>
     <h2>Portfolio:</h2>
-    <h2><a routerLink="/main">Makro</a></h2>
-    <h2><a routerLink="/main">Produktowa</a></h2>
-    <h2><a routerLink="/main">Sesja</a></h2>
+    <h2><a routerLink="/g-makro" (click)="drawer.toggle()">Makro</a></h2>
+    <h2>
+      <a routerLink="/g-produktowa" (click)="drawer.toggle()">Produktowa</a>
+    </h2>
+    <h2><a routerLink="/g-sesja" (click)="drawer.toggle()">Sesja</a></h2>
   </div>
 </mat-drawer>
 
