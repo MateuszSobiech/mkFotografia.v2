@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
 import { GaleriaMakroComponent } from './galeria/galeria-makro.component';
 import { GaleriaSesjaComponent } from './galeria/galeria-sesja.component';
+import { OMnieComponent } from './o-mnie/o-mnie.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { GaleriaSesjaComponent } from './galeria/galeria-sesja.component';
     FooterComponent,
     GaleriaMakroComponent,
     GaleriaProduktowaComponent,
-    GaleriaSesjaComponent
+    GaleriaSesjaComponent,
+    OMnieComponent
   ],
   imports: [
     BrowserModule,

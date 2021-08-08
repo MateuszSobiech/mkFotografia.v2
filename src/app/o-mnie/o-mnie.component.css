@@ -1,0 +1,17 @@
+.o-mnie {
+  margin-top: 30px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  margin-top: 20px;
+  width: 350px;
+  height: auto;
+}
+
+.opis {
+  padding: 0 30px;
+}

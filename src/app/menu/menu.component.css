@@ -5,6 +5,10 @@
   padding: 20px;
 }
 
+.example-sidenav-content h1 {
+  cursor: pointer;
+}
+
 .example-sidenav {
   width: 100%;
 }
