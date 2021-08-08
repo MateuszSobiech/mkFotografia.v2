@@ -1,6 +1,31 @@
 .footer {
   height: 200px;
-  background: grey;
+  background: rgb(233, 247, 244);
+}
+
+.social-media {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.social-media a {
+  margin: 0 16px;
+}
+
+.social-media a:visited {
+  color: black;
+}
+
+.tw a:hover {
+  color: #1da1f2;
+}
+
+.fb a:hover {
+  color: #4267b2;
+}
+
+.inst a:hover {
+  color: #c13584;
 }
 
 .stopka {
