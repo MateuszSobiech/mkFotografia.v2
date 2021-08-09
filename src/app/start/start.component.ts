@@ -11,14 +11,14 @@ export class StartComponent implements OnInit {
   ngOnInit(): void {}
 
   makroRouter = '/g-makro';
-  makroImg = 'https://mkfotografia.pl/img/hero.jpg';
+  makroImg = '../../assets/img/flower.jpg';
   makroTitle = 'Makro';
 
   produktowaRouter = '/g-produktowa';
-  produktowaImg = 'https://mkfotografia.pl/img/hero.jpg';
+  produktowaImg = '../../assets/img/flower.jpg';
   produktowaTitle = 'Produktowa';
 
   sesjaRouter = '/g-sesja';
-  sesjaImg = 'https://mkfotografia.pl/img/hero.jpg';
+  sesjaImg = '../../assets/img/flower.jpg';
   sesjaTitle = 'Sesja';
 }

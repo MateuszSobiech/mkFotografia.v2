@@ -14,3 +14,13 @@
   text-align: center;
   padding-top: 24px;
 }
+
+@media (min-width: 768px) {
+  .opis {
+    padding: 10px 35vw;
+    text-align: center;
+  }
+  .email {
+    margin-bottom: 30vh;
+  }
+}

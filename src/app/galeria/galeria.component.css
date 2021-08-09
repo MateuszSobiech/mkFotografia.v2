@@ -5,7 +5,12 @@
 
 .zdjecie {
   margin-top: 50px;
-  /* width: 1000px; */
   width: 350px;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .zdjecie {
+    width: 50vw;
+  }
 }

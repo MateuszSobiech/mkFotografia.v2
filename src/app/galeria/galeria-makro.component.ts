@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class GaleriaMakroComponent implements OnInit {
   title = 'Makro';
   zdjecia: Array<string> = [
-    'https://mkfotografia.pl/img/hero.jpg',
-    'https://mkfotografia.pl/img/hero.jpg',
-    'https://mkfotografia.pl/img/hero.jpg'
+    '../../assets/img/flower.jpg',
+    '../../assets/img/flower.jpg',
+    '../../assets/img/flower.jpg'
   ];
 
   constructor() {}

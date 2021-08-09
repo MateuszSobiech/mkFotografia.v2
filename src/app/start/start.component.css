@@ -9,3 +9,17 @@
 .wstep {
   padding: 0 40px;
 }
+
+@media (min-width: 768px) {
+  .wstep {
+    padding: 0 30vw;
+    text-align: center;
+  }
+  .wstep p {
+    margin: 0 0 20px 0;
+  }
+  .galerie {
+    display: flex;
+    justify-content: space-around;
+  }
+}
