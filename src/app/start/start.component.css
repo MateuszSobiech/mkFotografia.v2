@@ -10,6 +10,17 @@
   padding: 0 40px;
 }
 
+button {
+  background-color: rgb(233, 247, 244);
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+}
+button img {
+  width: 40px;
+}
+
 @media (min-width: 768px) {
   .wstep {
     padding: 0 30vw;
