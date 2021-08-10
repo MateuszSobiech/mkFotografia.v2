@@ -6,9 +6,13 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./photo.component.css']
 })
 export class PhotoComponent implements OnInit {
+  routerUrl: string = '';
+
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.routerUrl = 'http://localhost:4200' + this.router;
+  }
 
   @Input()
   router = '';

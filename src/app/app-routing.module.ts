@@ -1,4 +1,3 @@
-import { KontaktComponent } from './kontakt/kontakt.component';
 import { StartComponent } from './start/start.component';
 import { OMnieComponent } from './o-mnie/o-mnie.component';
 import { GaleriaProduktowaComponent } from './galeria/galeria-produktowa.component';
@@ -6,6 +5,7 @@ import { GaleriaSesjaComponent } from './galeria/galeria-sesja.component';
 import { GaleriaMakroComponent } from './galeria/galeria-makro.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { KontaktComponent } from './kontakt/kontakt.component';
 
 const routes: Routes = [
   { path: '', component: StartComponent },
@@ -17,11 +17,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, {
-      scrollPositionRestoration: 'enabled'
-    })
-  ],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule {}

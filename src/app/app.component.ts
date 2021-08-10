@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  onActive() {
-    window.scrollTo(0, 0);
-  }
+  constructor() {}
+
+  // ViewChild
 }
