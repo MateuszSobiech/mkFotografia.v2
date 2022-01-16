@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./galeria.component.css'],
 })
 export class GaleriaLudzieComponent implements OnInit {
-  title = 'Krajobrazy';
+  title = 'Ludzie';
   zdjecia: Array<string> = [
     '../../assets/img/flower.jpg',
     '../../assets/img/flower.jpg',

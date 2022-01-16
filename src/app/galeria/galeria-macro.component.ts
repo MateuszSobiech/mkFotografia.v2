@@ -8,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class GaleriaMacroComponent implements OnInit {
   title = 'Macro';
   zdjecia: Array<string> = [
-    '../../assets/img/flower.jpg',
-    '../../assets/img/flower.jpg',
-    '../../assets/img/flower.jpg',
+    '../../assets/img/macro/macro1-min.jpg',
+    '../../assets/img/macro/macro2-min.jpg',
+    '../../assets/img/macro/macro3-min.jpg',
+    '../../assets/img/macro/macro4-min.jpg',
+    '../../assets/img/macro/macro5-min.jpg',
+    '../../assets/img/macro/macro6-min.jpg',
+    '../../assets/img/macro/macro7-min.jpg',
+    '../../assets/img/macro/macro8-min.jpg',
+    '../../assets/img/macro/macro9-min.jpg',
+    '../../assets/img/macro/macro10-min.jpg',
+    '../../assets/img/macro/macro11-min.jpg',
   ];
 
   constructor() {}

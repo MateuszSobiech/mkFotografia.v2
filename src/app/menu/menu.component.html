@@ -6,11 +6,14 @@
     <h2><a routerLink="/o-mnie" (click)="drawer.toggle()">O mnie</a></h2>
     <hr width="60%" />
     <h2>Portfolio:</h2>
-    <h2><a routerLink="/g-makro" (click)="drawer.toggle()">Makro</a></h2>
+    <h2><a routerLink="/g-makro" (click)="drawer.toggle()">Macro</a></h2>
     <h2>
       <a routerLink="/g-produktowa" (click)="drawer.toggle()">Produktowa</a>
     </h2>
-    <h2><a routerLink="/g-sesja" (click)="drawer.toggle()">Sesja</a></h2>
+    <h2>
+      <a routerLink="/g-krajobrazy" (click)="drawer.toggle()">Krajobrazy</a>
+    </h2>
+    <h2><a routerLink="/g-ludzie" (click)="drawer.toggle()">Ludzie</a></h2>
     <hr width="60%" />
     <h2><a routerLink="/kontakt" (click)="drawer.toggle()">Kontakt</a></h2>
   </div>
@@ -22,7 +25,12 @@
     type="button"
     mat-button
     (click)="drawer.toggle()"
-    style="display: flex !important ; flex-direction: column; justify-content: space-between; align-items: center;"
+    style="
+      display: flex !important ;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    "
   >
     <fa-icon [icon]="faBars" size="2x"></fa-icon>
   </button>

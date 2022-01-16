@@ -7,24 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./start.component.css'],
 })
 export class StartComponent implements OnInit {
-  txt: string = '';
   constructor() {}
 
-  ngOnInit(): void {
-    const lan = localStorage.getItem('lan');
-    if (lan === 'pl') {
-      this.txt = TextComponent.pl_wstep;
-    } else {
-      this.txt = TextComponent.en_wstep;
-    }
-  }
+  ngOnInit(): void {}
 
   makroRouter = '/g-makro';
-  makroImg = '../../assets/img/flower.jpg';
+  makroImg = '../../assets/img/macro/macro3-min.jpg';
   makroTitle = 'Macro';
 
   produktowaRouter = '/g-produktowa';
-  produktowaImg = '../../assets/img/flower.jpg';
+  produktowaImg = '../../assets/img/produktowa/produktowa4-min.jpg';
   produktowaTitle = 'Produktowa';
 
   sesjaRouter = '/g-sesja';
@@ -38,14 +30,4 @@ export class StartComponent implements OnInit {
   ludzieRouter = '/g-ludzie';
   ludzieImg = '../../assets/img/flower.jpg';
   ludzieTitle = 'Ludzie';
-
-  add() {
-    localStorage.setItem('lan', 'pl');
-    location.reload();
-  }
-
-  show() {
-    localStorage.setItem('lan', 'en');
-    location.reload();
-  }
 }
