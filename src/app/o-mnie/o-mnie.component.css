@@ -17,7 +17,12 @@
 }
 
 .opis {
-  padding: 0 30px;
+  margin: 0 30px;
+  background-color: rgb(224, 224, 224);
+  margin-top: 50px;
+  padding: 20px;
+  border: solid 2px rgb(166, 199, 192);
+  border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -30,18 +35,27 @@
     justify-content: space-around;
     align-items: flex-start;
   }
+
   .hero {
-    padding: 0 13vw 5vh 5vw;
+    margin: 50px 13vw 5vh 5vw;
+    text-align: center;
   }
+
   .hero img {
     margin: 0;
     width: 25vw;
   }
 
   .opis {
-    padding: 0 8vw 0 16vw;
+    margin: 0 8vw 0 16vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    background-color: rgb(224, 224, 224);
+    margin-top: 50px;
+    padding: 20px;
+    border: solid 2px rgb(166, 199, 192);
+    border-radius: 10px;
   }
 }

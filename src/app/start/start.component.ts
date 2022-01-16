@@ -1,4 +1,3 @@
-import { TextComponent } from './../text/text.component';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -19,15 +18,11 @@ export class StartComponent implements OnInit {
   produktowaImg = '../../assets/img/produktowa/produktowa4-min.jpg';
   produktowaTitle = 'Produktowa';
 
-  sesjaRouter = '/g-sesja';
-  sesjaImg = '../../assets/img/flower.jpg';
-  sesjaTitle = 'Sesja';
-
   krajobrazyRouter = '/g-krajobrazy';
-  krajobrazyImg = '../../assets/img/flower.jpg';
+  krajobrazyImg = '../../assets/img/krajobrazy/krajobrazy3-min.jpg';
   krajobrazyTitle = 'Krajobrazy';
 
   ludzieRouter = '/g-ludzie';
-  ludzieImg = '../../assets/img/flower.jpg';
+  ludzieImg = '../../assets/img/ludzie/ludzie6-min.jpg';
   ludzieTitle = 'Ludzie';
 }

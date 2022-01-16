@@ -8,3 +8,7 @@ body {
   margin: 0;
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
+
+.mat-drawer-content {
+  z-index: auto !important;
+}

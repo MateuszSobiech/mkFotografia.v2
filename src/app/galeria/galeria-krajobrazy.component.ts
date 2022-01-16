@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class GaleriaKrajobrazyComponent implements OnInit {
   title = 'Krajobrazy';
   zdjecia: Array<string> = [
-    '../../assets/img/flower.jpg',
-    '../../assets/img/flower.jpg',
-    '../../assets/img/flower.jpg',
+    '../../assets/img/krajobrazy/krajobrazy1-min.jpg',
+    '../../assets/img/krajobrazy/krajobrazy2-min.jpg',
+    '../../assets/img/krajobrazy/krajobrazy3-min.jpg',
+    '../../assets/img/krajobrazy/krajobrazy4-min.jpg',
+    '../../assets/img/krajobrazy/krajobrazy5-min.jpg',
+    '../../assets/img/krajobrazy/krajobrazy6-min.jpg',
   ];
 
   constructor() {}

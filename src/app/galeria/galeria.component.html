@@ -1,6 +1,8 @@
 <div *ngIf="zdjecia.length !== 0; else elseTemplate">
   <div class="galeria">
-    <h2>Galeria: {{ title }}</h2>
+    <h2>
+      <i>Galeria: {{ title }}</i>
+    </h2>
     <div class="box">
       <div *ngFor="let item of zdjecia">
         <img

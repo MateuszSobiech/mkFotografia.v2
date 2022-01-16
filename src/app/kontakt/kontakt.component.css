@@ -1,5 +1,16 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 .kontakt {
-  margin-top: 30px;
+  width: 500px;
+  margin: 30px 20px;
+
+  background-color: rgb(224, 224, 224);
+  padding: 20px;
+  border: solid 2px rgb(166, 199, 192);
+  border-radius: 10px;
 }
 
 .nazwa {
@@ -17,10 +28,10 @@
 
 @media (min-width: 768px) {
   .opis {
-    padding: 10px 35vw;
     text-align: center;
   }
-  .email {
-    margin-bottom: 30vh;
+
+  .kontakt {
+    margin-bottom: 80px;
   }
 }

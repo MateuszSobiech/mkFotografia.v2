@@ -8,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class GaleriaLudzieComponent implements OnInit {
   title = 'Ludzie';
   zdjecia: Array<string> = [
-    '../../assets/img/flower.jpg',
-    '../../assets/img/flower.jpg',
-    '../../assets/img/flower.jpg',
+    '../../assets/img/ludzie/ludzie1-min.jpg',
+    '../../assets/img/ludzie/ludzie2-min.jpg',
+    '../../assets/img/ludzie/ludzie3-min.jpg',
+    '../../assets/img/ludzie/ludzie4-min.jpg',
+    '../../assets/img/ludzie/ludzie5-min.jpg',
+    '../../assets/img/ludzie/ludzie6-min.jpg',
+    '../../assets/img/ludzie/ludzie7-min.jpg',
   ];
 
   constructor() {}
