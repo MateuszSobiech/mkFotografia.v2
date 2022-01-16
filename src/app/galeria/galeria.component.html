@@ -1,17 +1,19 @@
 <div *ngIf="zdjecia.length !== 0; else elseTemplate">
   <div class="galeria">
     <h2>Galeria: {{ title }}</h2>
-    <div *ngFor="let item of zdjecia">
-      <img
-        class="zdjecie"
-        src="{{ item }}"
-        alt="Zdjęcie z galerii {{ title }}"
-      />
+    <div class="box">
+      <div *ngFor="let item of zdjecia">
+        <img
+          class="zdjecie"
+          src="{{ item }}"
+          alt="Zdjęcie z galerii {{ title }}"
+        />
+      </div>
     </div>
   </div>
 </div>
 <ng-template #elseTemplate>
-  <div style="text-align: center; padding: 24px;">
+  <div style="text-align: center; padding: 24px">
     <b>Brak zdjęc dla galerii: {{ title }}</b>
   </div>
 </ng-template>

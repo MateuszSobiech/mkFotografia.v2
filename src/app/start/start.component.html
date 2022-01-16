@@ -1,9 +1,9 @@
 <div class="start">
-  <div class="wstep">
+  <!-- <div class="wstep">
     <p>
-      <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices
       et nulla vel vestibulum. Vivamus efficitur ultricies lectus, eu pulvinar
-      urna laoreet sed. In efficitur tincidunt laoreet. -->
+      urna laoreet sed. In efficitur tincidunt laoreet.
       {{ txt }}
     </p>
     <button (click)="add()">
@@ -12,7 +12,7 @@
     <button (click)="show()">
       <img src="../../assets/icon/en.png" alt="" />
     </button>
-  </div>
+  </div> -->
   <div class="galerie">
     <app-photo
       [router]="makroRouter"
@@ -25,9 +25,14 @@
       [title]="produktowaTitle"
     ></app-photo>
     <app-photo
-      [router]="sesjaRouter"
-      [imgUrl]="sesjaImg"
-      [title]="sesjaTitle"
+      [router]="krajobrazyRouter"
+      [imgUrl]="krajobrazyImg"
+      [title]="krajobrazyTitle"
+    ></app-photo>
+    <app-photo
+      [router]="ludzieRouter"
+      [imgUrl]="ludzieImg"
+      [title]="ludzieTitle"
     ></app-photo>
   </div>
 </div>

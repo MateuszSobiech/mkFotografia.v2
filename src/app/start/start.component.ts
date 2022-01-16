@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-start',
   templateUrl: './start.component.html',
-  styleUrls: ['./start.component.css']
+  styleUrls: ['./start.component.css'],
 })
 export class StartComponent implements OnInit {
   txt: string = '';
@@ -21,7 +21,7 @@ export class StartComponent implements OnInit {
 
   makroRouter = '/g-makro';
   makroImg = '../../assets/img/flower.jpg';
-  makroTitle = 'Makro';
+  makroTitle = 'Macro';
 
   produktowaRouter = '/g-produktowa';
   produktowaImg = '../../assets/img/flower.jpg';
@@ -30,6 +30,14 @@ export class StartComponent implements OnInit {
   sesjaRouter = '/g-sesja';
   sesjaImg = '../../assets/img/flower.jpg';
   sesjaTitle = 'Sesja';
+
+  krajobrazyRouter = '/g-krajobrazy';
+  krajobrazyImg = '../../assets/img/flower.jpg';
+  krajobrazyTitle = 'Krajobrazy';
+
+  ludzieRouter = '/g-ludzie';
+  ludzieImg = '../../assets/img/flower.jpg';
+  ludzieTitle = 'Ludzie';
 
   add() {
     localStorage.setItem('lan', 'pl');

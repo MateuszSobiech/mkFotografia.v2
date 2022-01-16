@@ -1,5 +1,8 @@
 .photo {
-  margin-top: 90px;
+  margin-top: 50px;
+  padding: 20px;
+  border: solid 2px rgb(166, 199, 192);
+  border-radius: 10px;
 }
 
 .photo img {
@@ -21,11 +24,9 @@
 
 @media (min-width: 768px) {
   .photo {
-    width: 25vw;
+    width: 16vw;
     padding: 20px 40px;
     margin: 20px;
-    border: solid 2px rgb(166, 199, 192);
-    border-radius: 10px;
   }
   .photo img {
     width: 100%;

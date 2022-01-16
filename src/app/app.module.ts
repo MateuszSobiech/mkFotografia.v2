@@ -11,25 +11,27 @@ import { MatButtonModule } from '@angular/material/button';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatIconModule } from '@angular/material/icon';
-import { GaleriaMakroComponent } from './galeria/galeria-makro.component';
-import { GaleriaSesjaComponent } from './galeria/galeria-sesja.component';
+import { GaleriaMacroComponent } from './galeria/galeria-macro.component';
 import { OMnieComponent } from './o-mnie/o-mnie.component';
 import { StartComponent } from './start/start.component';
 import { PhotoComponent } from './photo/photo.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
+import { GaleriaKrajobrazyComponent } from './galeria/galeria-krajobrazy.component';
+import { GaleriaLudzieComponent } from './galeria/galeria-ludzie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     FooterComponent,
-    GaleriaMakroComponent,
+    GaleriaMacroComponent,
     GaleriaProduktowaComponent,
-    GaleriaSesjaComponent,
+    GaleriaKrajobrazyComponent,
+    GaleriaLudzieComponent,
     OMnieComponent,
     StartComponent,
     PhotoComponent,
-    KontaktComponent
+    KontaktComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,9 +40,9 @@ import { KontaktComponent } from './kontakt/kontakt.component';
     MatButtonModule,
     FontAwesomeModule,
     MatIconModule,
-    MatSidenavModule
+    MatSidenavModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

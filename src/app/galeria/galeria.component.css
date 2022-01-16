@@ -11,6 +11,15 @@
 
 @media (min-width: 768px) {
   .zdjecie {
-    width: 50vw;
+    width: auto;
+    max-height: 500px;
+    margin: 10px;
+  }
+
+  .box {
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
