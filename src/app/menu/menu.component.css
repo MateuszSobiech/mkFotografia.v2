@@ -1,3 +1,7 @@
+.mat-button {
+  color: white;
+}
+
 .example-sidenav-content {
   display: flex;
   justify-content: space-between;
@@ -21,6 +25,7 @@
 }
 
 .menu {
+  background-color: rgb(224, 224, 224);
   position: fixed;
   top: 0;
   left: 0;
