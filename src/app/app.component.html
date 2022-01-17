@@ -1,6 +1,7 @@
 <mat-drawer-container class="example-container" autosize>
+  <div id="top"></div>
   <div class="heroImg"></div>
   <app-menu></app-menu>
-  <router-outlet></router-outlet>
+  <router-outlet (activate)="scrollTop()"></router-outlet>
   <app-footer></app-footer>
 </mat-drawer-container>
