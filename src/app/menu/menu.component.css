@@ -13,6 +13,10 @@
   cursor: pointer;
 }
 
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
 .example-sidenav {
   width: 100%;
 }
