@@ -19,9 +19,17 @@ export class GaleriaMacroComponent implements OnInit {
     '../../assets/img/macro/macro9-min.jpg',
     '../../assets/img/macro/macro10-min.jpg',
     '../../assets/img/macro/macro11-min.jpg',
+    '../../assets/img/macro/macro12-min.jpg',
+    '../../assets/img/macro/macro13-min.jpg',
+    '../../assets/img/macro/macro14-min.jpg',
+    '../../assets/img/macro/macro15-min.jpg',
+    '../../assets/img/macro/macro16-min.jpg',
+    '../../assets/img/macro/macro17-min.jpg',
   ];
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.zdjecia.reverse();
+  }
 }

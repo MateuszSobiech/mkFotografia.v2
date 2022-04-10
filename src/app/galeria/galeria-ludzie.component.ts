@@ -19,5 +19,7 @@ export class GaleriaLudzieComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.zdjecia.reverse();
+  }
 }

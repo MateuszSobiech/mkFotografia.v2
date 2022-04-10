@@ -14,9 +14,12 @@ export class GaleriaKrajobrazyComponent implements OnInit {
     '../../assets/img/krajobrazy/krajobrazy4-min.jpg',
     '../../assets/img/krajobrazy/krajobrazy5-min.jpg',
     '../../assets/img/krajobrazy/krajobrazy6-min.jpg',
+    '../../assets/img/krajobrazy/krajobrazy7-min.jpg',
   ];
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.zdjecia.reverse();
+  }
 }

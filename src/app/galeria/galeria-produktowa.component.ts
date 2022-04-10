@@ -23,5 +23,7 @@ export class GaleriaProduktowaComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.zdjecia.reverse();
+  }
 }
