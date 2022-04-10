@@ -18,4 +18,7 @@ export class PhotoComponent implements OnInit {
 
   @Input()
   title = '';
+
+  @Input()
+  description = '';
 }
