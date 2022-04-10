@@ -1,6 +1,7 @@
 .center {
   display: flex;
   justify-content: center;
+  margin-bottom: 200px;
 }
 
 .kontakt {
@@ -23,7 +24,7 @@
 
 .email {
   text-align: center;
-  padding-top: 24px;
+  padding-top: 80px;
 }
 
 @media (min-width: 768px) {
