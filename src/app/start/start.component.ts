@@ -35,5 +35,5 @@ export class StartComponent implements OnInit {
   ludzieImg = '../../assets/img/kwadrat.jpg';
   ludzieTitle = 'Ludzie';
   ludzieDescription =
-    '- nie lubię portretów studyjnych, choć i takie robię. Lubię ludzi w ich naturalnym środowisku, gdy zdjęcia uchwycą osobowość, charakterystyczne zachowanie. W czasie sesji można nawiązać relację, która prowadzi do otworzenia się osoby i stworzenia prawdziwych zdjęć. ';
+    '- marzę o sesji dla całej rodziny w profesjonalnym studio. Lubię fotografować ludzi w ich naturalnym środowisku, gdy zdjęcia uchwycą osobowość, charakterystyczne zachowanie. W czasie sesji można nawiązać relację, która prowadzi do otworzenia się osoby i stworzenia prawdziwych zdjęć.';
 }
